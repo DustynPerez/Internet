@@ -159,7 +159,7 @@ img {
 
 /*=============== HOME ===============*/
 .home__container{
-  /*height: 100hv;*/
+  height: 100hv;
   padding-block: 9rem 2rem ;
   display: grid;
   align-items: center;
@@ -248,6 +248,21 @@ img {
   content: '';
 }
 
+.swiper-button-prev,
+.swiper-button-next{
+  top: initial;
+  bottom: 0;
+  font-size: 1.5rem;
+  color: var(--black-color);
+}
+
+.swiper-button-prev{
+  left: calc(50% - 8rem);
+}
+
+.swiper-button-next{
+  right: calc(50% - 8rem);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
