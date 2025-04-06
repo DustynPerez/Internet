@@ -27,9 +27,17 @@ const linkAction = () =>{
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-
 /*=============== SWIPER CLOTHING ===============*/
+let swiperHome = new Swiper('.home__swiper', {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 'auto',
 
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+})
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 

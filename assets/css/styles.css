@@ -239,6 +239,14 @@ img {
 }
 
 /* Swiper class */
+.swiper{
+  margin-inline: initial;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  content: '';
+}
 
 
 /*=============== BREAKPOINTS ===============*/
