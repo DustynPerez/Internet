@@ -72,3 +72,14 @@ sr.reveal(`.home__circle`, {scale: 1.5, delay: 300} )
 sr.reveal(`.home__subcircle`, {scale: 1.5, delay: 500} )
 sr.reveal(`.home__title`, {scale: 1, origin:'bottom', delay: 1200} )
 sr.reveal(`.swiper-button-prev, .swiper-button.next`, {origin:'bottom'} )
+
+const swiper = new Swiper('.swiper', {
+    loop: true,
+    spaceBetween: 30,
+    slidesPerView: 1,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+  
